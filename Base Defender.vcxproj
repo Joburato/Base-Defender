@@ -136,8 +136,27 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="img\ammo.png" />
     <Image Include="img\Enemy.png" />
+    <Image Include="img\fundo.png" />
+    <Image Include="img\life.png" />
     <Image Include="img\Nave.png" />
+    <Image Include="img\shotgun.png" />
+    <Image Include="img\triple.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\arial.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\ammo.wav" />
+    <Media Include="sounds\BaseHit.wav" />
+    <Media Include="sounds\death.wav" />
+    <Media Include="sounds\enemydead.wav" />
+    <Media Include="sounds\heal.wav" />
+    <Media Include="sounds\laserShoot.wav" />
+    <Media Include="sounds\powerUp.wav" />
+    <Media Include="sounds\respawn.wav" />
+    <Media Include="sounds\soundtrack.wav" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

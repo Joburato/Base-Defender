@@ -16,6 +16,12 @@
     <Filter Include="Arquivos de Origem\img">
       <UniqueIdentifier>{617fc484-6331-4033-bbd4-02e0a1ea53ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Origem\fonts">
+      <UniqueIdentifier>{ffe97e31-0e13-4789-92ae-30259af7d6c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\sounds">
+      <UniqueIdentifier>{54323563-95f1-4ce7-8890-21e3e2ba2d7e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -29,5 +35,54 @@
     <Image Include="img\Enemy.png">
       <Filter>Arquivos de Origem\img</Filter>
     </Image>
+    <Image Include="img\ammo.png">
+      <Filter>Arquivos de Origem\img</Filter>
+    </Image>
+    <Image Include="img\life.png">
+      <Filter>Arquivos de Origem\img</Filter>
+    </Image>
+    <Image Include="img\fundo.png">
+      <Filter>Arquivos de Origem\img</Filter>
+    </Image>
+    <Image Include="img\triple.png">
+      <Filter>Arquivos de Origem\img</Filter>
+    </Image>
+    <Image Include="img\shotgun.png">
+      <Filter>Arquivos de Origem\img</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="fonts\arial.ttf">
+      <Filter>Arquivos de Origem\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\death.wav">
+      <Filter>Arquivos de Origem\sounds</Filter>
+    </Media>
+    <Media Include="sounds\enemydead.wav">
+      <Filter>Arquivos de Origem\sounds</Filter>
+    </Media>
+    <Media Include="sounds\laserShoot.wav">
+      <Filter>Arquivos de Origem\sounds</Filter>
+    </Media>
+    <Media Include="sounds\heal.wav">
+      <Filter>Arquivos de Origem\sounds</Filter>
+    </Media>
+    <Media Include="sounds\ammo.wav">
+      <Filter>Arquivos de Origem\sounds</Filter>
+    </Media>
+    <Media Include="sounds\BaseHit.wav">
+      <Filter>Arquivos de Origem\sounds</Filter>
+    </Media>
+    <Media Include="sounds\soundtrack.wav">
+      <Filter>Arquivos de Origem\sounds</Filter>
+    </Media>
+    <Media Include="sounds\powerUp.wav">
+      <Filter>Arquivos de Origem\sounds</Filter>
+    </Media>
+    <Media Include="sounds\respawn.wav">
+      <Filter>Arquivos de Origem\sounds</Filter>
+    </Media>
   </ItemGroup>
 </Project>
